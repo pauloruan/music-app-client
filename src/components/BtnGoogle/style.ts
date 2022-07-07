@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const BtnGithubContainer = styled.button`
+const BtnGoogleContainer = styled.button`
   display: flex;
   align-items: center;
   justify-content: center;
@@ -30,4 +30,4 @@ const BtnGithubContainer = styled.button`
   }
   `;
 
-export default BtnGithubContainer;
+export default BtnGoogleContainer;
