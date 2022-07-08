@@ -7,13 +7,19 @@ export const HeaderContainer = styled.header`
   padding: 0 1rem;
   height: 4rem;
   width: 100%;
+  padding: 0 3rem;
   background-color: var(--background);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
 `;
 
 export const SpanHeaderContainer = styled.span`
   color: var(--primary);
   font-size: 2rem;
   font-weight: bold;
+  padding-right: 0.1rem;
 `;
 
 export const TitleHeaderContainer = styled.h1`
