@@ -2,11 +2,11 @@ import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
   :root {
-    --background: #212121;
+    --background: #1B1A17;
     --shape: #323232;
-    --text: #fff;
-    --primary: #0D7377;
-    --secondary: #14FFEC;
+    --text: #F0E3CA;
+    --primary: #FF8303;
+    --secondary: #A35709;
     --font-base: 'Nunito', sans-serif;
     --box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
   }

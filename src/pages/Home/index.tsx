@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from '../../components/Header';
-import SVG from '../../../public/undraw_audio_player_re_cl20.svg';
+import SVG from '../../../ilustration.svg';
 import BtnHome from '../../components/BtnHome';
 import {
   HomeContainer,
