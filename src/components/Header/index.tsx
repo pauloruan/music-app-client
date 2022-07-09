@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { FaGithub } from 'react-icons/fa';
 import { FcGoogle } from 'react-icons/fc';
 import BtnGithub from '../BtnGithub';
@@ -7,18 +8,18 @@ import BtnGoogle from '../BtnGoogle';
 import {
   HeaderContainer,
   SpanHeaderContainer,
-  TitleHeaderContainer,
   ButtonsContainer,
+  styleLink,
 } from './style';
 
 export default function Header(): React.FunctionComponentElement<{}> {
   return (
     <HeaderContainer>
-      <TitleHeaderContainer>
+      <Link style={styleLink} to="/">
         app
         <SpanHeaderContainer>.</SpanHeaderContainer>
         Music
-      </TitleHeaderContainer>
+      </Link>
       <ButtonsContainer>
         <BtnGithub>
           <FaGithub size={18} />

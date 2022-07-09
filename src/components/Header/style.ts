@@ -23,7 +23,7 @@ export const SpanHeaderContainer = styled.span`
 `;
 
 export const TitleHeaderContainer = styled.h1`
-  color: var(--text);
+  /* color: ; */
   font-size: 2rem;
   font-weight: bold;
 `;
@@ -35,3 +35,10 @@ export const ButtonsContainer = styled.div`
   justify-content: space-between;
   padding: 0.5rem;
 `;
+
+export const styleLink = {
+  textDecoration: 'none',
+  color: 'var(--text)',
+  fontSize: '2rem',
+  fontWeight: 'bold',
+};
