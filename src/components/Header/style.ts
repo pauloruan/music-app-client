@@ -22,20 +22,6 @@ export const SpanHeaderContainer = styled.span`
   padding-right: 0.1rem;
 `;
 
-export const TitleHeaderContainer = styled.h1`
-  /* color: ; */
-  font-size: 2rem;
-  font-weight: bold;
-`;
-
-export const ButtonsContainer = styled.div`
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 0.5rem;
-`;
-
 export const styleLink = {
   textDecoration: 'none',
   color: 'var(--text)',
